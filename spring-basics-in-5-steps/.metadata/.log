@@ -1,0 +1,67 @@
+!SESSION 2019-08-28 20:55:39.179 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/dmondal/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/dmondal/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-28 20:56:30.513
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-08-28 20:56:31.559
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-28 20:56:31.559
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57466fb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7891742e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-08-28 20:56:34.958
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY amazon.devtools.brazil.eclipse.BrazilCommonEclipsePlugin 1 -1 2019-08-28 20:56:42.242
+!MESSAGE Eclipse Plugin analytics id: 1cf12517-9e29-4c31-b803-373155debc1c
+
+!ENTRY amazon.devtools.brazil.eclipse.BrazilCommonEclipsePlugin 2 -1 2019-08-28 20:56:45.576
+!MESSAGE No existing workspace found
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:46.035
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:53.817
+!MESSAGE Failed to load credential profiles from (/Users/dmondal/.aws/credentials).AWS credential profiles file not found in the given path: /Users/dmondal/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:53.839
+!MESSAGE Monitoring content of /Users/dmondal/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:54.344
+!MESSAGE AWS toolkit core plugin initialized after 8307 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:54.354
+!MESSAGE Failed to load credential profiles from (/Users/dmondal/.aws/credentials).AWS credential profiles file not found in the given path: /Users/dmondal/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:54.357
+!MESSAGE No account is configued in the toolkit. Bootstrapping the credentials file at (/Users/dmondal/.aws/credentials).
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:54.382
+!MESSAGE No profile found: default
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:54.384
+!MESSAGE The current accountId is not found in the system. Switching to the default account.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2019-08-28 20:56:55.279
+!MESSAGE Initialized a new Cognito identity us-east-1:06587b57-d0f4-473f-b6fd-54f788a3c69a
